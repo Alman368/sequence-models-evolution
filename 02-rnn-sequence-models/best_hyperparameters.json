@@ -1,0 +1,12 @@
+{
+    "hidden_size": 288,
+    "learning_rate": 0.0018800118847900327,
+    "optimizer": "adamw",
+    "activation": "relu",
+    "dropout_rate": 0.3998466527993291,
+    "clip_value": 1.1518650819354024,
+    "weight_init": "kaiming",
+    "patience": 10,
+    "batch_size": 64,
+    "num_epochs": 106
+}

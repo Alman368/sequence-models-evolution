@@ -1,0 +1,56 @@
+
+================================================================================
+FINAL EXPERIMENT SUMMARY REPORT
+================================================================================
+
+DATASET INFORMATION:
+- Total text length: 214451
+- Train/Val/Test split: 30%/10%/60% (FIXED)
+- Sequence length: 20 (FIXED)
+- Vocabulary size: 29
+- Future steps (prediction): 1
+
+BEST HYPERPARAMETERS (from Optuna optimization with 100 trials):
+- hidden_size: 288
+- learning_rate: 0.0018800118847900327
+- optimizer: adamw
+- activation: relu
+- dropout_rate: 0.3998466527993291
+- clip_value: 1.1518650819354024
+- weight_init: kaiming
+- patience: 10
+- batch_size: 64
+- num_epochs: 106
+
+FINAL RESULTS (20 independent runs with different initializations):
+- Mean Test Accuracy: 57.7365% ± 0.3230%
+- Mean Validation Accuracy: 57.4027% ± 0.3323%
+- Best Test Accuracy: 58.2822%
+- Worst Test Accuracy: 56.8675%
+- Median Test Accuracy: 57.6972%
+
+INDIVIDUAL RUN RESULTS:
+Run  1: Val Acc = 57.50%, Test Acc = 58.02%
+Run  2: Val Acc = 57.87%, Test Acc = 58.03%
+Run  3: Val Acc = 57.88%, Test Acc = 58.28%
+Run  4: Val Acc = 57.48%, Test Acc = 57.88%
+Run  5: Val Acc = 57.48%, Test Acc = 57.84%
+Run  6: Val Acc = 57.44%, Test Acc = 57.66%
+Run  7: Val Acc = 57.28%, Test Acc = 57.55%
+Run  8: Val Acc = 56.58%, Test Acc = 56.87%
+Run  9: Val Acc = 57.30%, Test Acc = 57.70%
+Run 10: Val Acc = 57.09%, Test Acc = 57.47%
+Run 11: Val Acc = 57.09%, Test Acc = 57.68%
+Run 12: Val Acc = 57.16%, Test Acc = 57.47%
+Run 13: Val Acc = 57.72%, Test Acc = 58.19%
+Run 14: Val Acc = 57.49%, Test Acc = 57.83%
+Run 15: Val Acc = 57.20%, Test Acc = 57.63%
+Run 16: Val Acc = 57.91%, Test Acc = 58.17%
+Run 17: Val Acc = 57.82%, Test Acc = 57.91%
+Run 18: Val Acc = 57.03%, Test Acc = 57.48%
+Run 19: Val Acc = 57.53%, Test Acc = 57.69%
+Run 20: Val Acc = 57.19%, Test Acc = 57.37%
+
+================================================================================
+END OF REPORT
+================================================================================
